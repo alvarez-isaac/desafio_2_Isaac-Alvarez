@@ -1,0 +1,95 @@
+/*fuente para titulos y nav*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*fuente para textos y cuerpo*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav img {
+    height: 150px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 19px;
+    background-color: #F2668B;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+h1 {
+    color:#7209b7 ;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+main {
+    background-color: #F7BBBB;
+    padding: 30px;
+}
+
+.orden {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.excibidor img {
+    width: 400px;
+    height: 200px;
+    background-color: bisque;
+    border-radius: 15px;
+    margin-top: 80px;
+}
+
+.excibidor_2 img{
+    float: right;
+    width: 400px;
+    height: 200px;
+    background-color: bisque;
+    border-radius: 15px;
+}
+
+.excibidor_info {
+    margin-right: 50px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.excibidor_info_2 {
+    margin-right: 50px;
+    font-family: "Noto Sans", sans-serif;
+    width: 250px;
+}
+
+.boton {
+    background-color: #F2668B;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.excibidor_info_menu {
+    margin-right: 50px;
+    font-family: "Noto Sans", sans-serif;
+    align-items: center;
+}
+
+footer {
+    background-color: darkgray;
+    padding: 30px;
+    font-size: 19px;
+    font-family: "Noto Sans", sans-serif;
+}
